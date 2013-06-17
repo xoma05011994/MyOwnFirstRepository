@@ -1,0 +1,53 @@
+/*
+Author: Martynuk Dmitryi
+web-site: kursovoi
+*/
+@import url("../css/reset.css");
+*{
+    font-family: Arial, Verdana, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+#wrap{
+    width: 964px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.9);
+}
+#content{
+    padding: 10px 30px;
+    min-height: 500px;
+    overflow: auto;
+}
+#header{
+    padding: 10px 30px;
+    background-color: #D1EAF1;
+    min-height: 50px;
+    border-bottom: 3px solid lightskyblue;
+}
+#header span a{
+    text-decoration: none;
+}
+#header form{
+    float:right;
+    padding-top: 10px;
+}
+#footer{
+    border-top: 3px solid #CCC;
+    background-color: #EEE;
+    height:100px;
+}
+#contact{
+    float:right;
+    display:inline-block;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#contact li{
+   text-align: right;
+}
+span{
+    font-weight:bold;
+}
